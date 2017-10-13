@@ -1,0 +1,20 @@
+{
+  "name": "newssummarychallenge",
+  "version": "0.0.1",
+  "description": "makers week 7 weekend challenge, an app which will grab all the headlines from the Guardian newspaper API and display them on a page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "News",
+    "API",
+    "Ajax",
+    "Javascript"
+  ],
+  "author": "James Stubbs",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}
