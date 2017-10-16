@@ -35,18 +35,16 @@ PingPongSpec.prototype.expectToEqual = function(object) {
 PingPongSpec.prototype.renderTest = function() {
   this.failHash = {
     fail_output:
-      "The test: 'it " +
+      "<li>The test: 'it " +
       this._it +
       "' FAILED, expected " +
       this.expectation +
       " and got " +
-      this._testObject
+      this._testObject +
+      "</li>"
   };
   this.passHash = {
-    pass_output:
-      "The test: 'it " +
-      this._it +
-      " PASSED!"
+    pass_output: "<li>The test: 'it " + this._it + " PASSED!</li>"
   };
 
   var renderer = new PingPongRenderer();
